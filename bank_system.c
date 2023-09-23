@@ -14,12 +14,6 @@ struct userD {
     char accNo[100];
 };
 
-struct transferM {
-    char senderId[50];
-    char receiverId[50];
-    int amount;
-};
-
 int accountDetails(char *acc, char *fname, char *pin) {
     struct userD u1;
     printf("\n\n------CREATE ACCOUNT-------");
